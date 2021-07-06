@@ -1,0 +1,242 @@
+:root {
+  --border: #101010;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.squares {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.frame {
+  height: 500px;
+  width: 420px;
+  border: solid 7px black;
+}
+
+.one {
+  border: solid 6px var(--border);
+  width: 50px;
+  height: 135px;
+}
+
+.two {
+  border: solid 6px var(--border);
+  background-color: #FFA799;
+  border-left: none;
+  height: 49px;
+  width: 120px;
+  transform: translate(50px, -135px);
+}
+
+.three {
+  outline: solid 6px var(--border);
+  width: 80px;
+  height: 80px;
+  transform: translate(50px, -135px);
+}
+
+.four {
+  outline: solid 6px var(--border);
+  background-color: #1A0605;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  transform: translate(136px, -215px);
+}
+
+.five {
+  border: solid 6px var(--border);
+  height: 49px;
+  width: 120px;
+  transform: translate(165px, -265px);
+}
+
+.six {
+  border: solid 6px var(--border);
+  background-color: #D4343E;
+  height: 150px;
+  width: 150px;
+  transform: translate(216px, -270px);
+}
+
+.seven {
+  border: solid 6px var(--border);
+  height: 49px;
+  width: 86px;
+  transform: translate(280px, -465px);
+}
+
+.eight {
+  border: solid 6px var(--border);
+  width: 50px;
+  height: 90px;
+  transform: translate(360px, -513px);
+}
+
+.nine {
+  border: solid 6px var(--border);
+  width: 50px;
+  height: 110px;
+  transform: translate(360px, -519px);
+}
+
+.ten {
+  border: solid 6px var(--border);
+  border-top: none;
+  height: 61px;
+  width: 48px;
+  transform: translate(174px, -580px);
+}
+
+.eleven {
+  border: solid 6px var(--border);
+  border-top: none;
+  height: 61px;
+  width: 48px;
+  transform: translate(130px, -641px);
+}
+
+.twelve {
+  border: solid 6px var(--border);
+  background-color: #1A0605;
+  border-top: none;
+  height: 61px;
+  width: 48px;
+  transform: translate(88px, -702px);
+}
+
+.thirteen {
+  border: solid 6px var(--border);
+  background-color: #FFA799;
+  height: 32px;
+  width: 93px;
+  transform: translate(0, -765px);
+}
+
+.fourteen {
+  border: solid 6px var(--border);
+  border-top: none;
+  height: 32px;
+  width: 93px;
+  transform: translate(0, -766px);
+}
+
+.fifteen {
+  border: solid 6px var(--border);
+  background-color: #D4343E;
+  height: 93px;
+  width: 93px;
+  transform: translate(0, -770px);
+}
+
+.sixteen {
+  border: solid 6px var(--border);
+  background-color: #7A5A8B;
+  height: 93px;
+  width: 93px;
+  transform: translate(86px, -863px);
+}
+
+.seventeen {
+  border: solid 6px var(--border);
+  width: 48px;
+  height: 93px;
+  transform: translate(173px, -956px);
+}
+
+.eighteen {
+  border: solid 6px var(--border);
+  width: 75px;
+  height: 48px;
+  transform: translate(215px, -1050px);
+}
+
+.nineteen {
+  border: solid 6px var(--border);
+  border-top: none;
+  width: 75px;
+  height: 48px;
+  transform: translate(215px, -1052px);
+}
+
+.twenty {
+  border: solid 6px var(--border);
+  background-color: #FFA799;
+  height: 93px;
+  width: 80px;
+  transform: translate(285px, -1145px);
+}
+
+.twentyone {
+  border: solid 6px var(--border);
+  background-color: #FFA799;
+  height: 93px;
+  width: 50px;
+  transform: translate(360px, -1238px);
+}
+
+.twentytwo {
+  border: solid 6px var(--border);
+  background-color: #FFA799;
+  height: 93px;
+  width: 50px;
+  transform: translate(0, -1243px);
+}
+
+.twentythree {
+  border: solid 6px var(--border);
+  background-color: #FFA799;
+  height: 93px;
+  width: 93px;
+  transform: translate(43px, -1336px);
+}
+
+.twentyfour {
+  border: solid 6px var(--border);
+  height: 48px;
+  width: 90px;
+  transform: translate(130px, -1430px);
+}
+
+.twentyfive {
+  border: solid 6px var(--border);
+  border-top: none;
+  height: 48px;
+  width: 90px;
+  transform: translate(130px, -1432px);
+}
+
+.twentysix {
+  border: solid 6px var(--border);
+  border-left: none;
+  border-right: none;
+  height: 93px;
+  width: 15px;
+  transform: translate(217px, -1525px);
+}
+
+.twentyseven {
+  border: solid 6px var(--border);
+  border-left: none;
+  background-color: #D4343E;
+  height: 93px;
+  width: 93px;
+  transform: translate(317px, -1618px);
+}
+
+.twentyeight {
+  border: solid 6px var(--border);
+  background-color: #7A5A8B;
+  height: 93px;
+  width: 93px;
+  transform: translate(228px, -1711px);
+}
