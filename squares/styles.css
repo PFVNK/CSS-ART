@@ -17,9 +17,9 @@
 }
 
 .frame {
-  height: 500px;
+  height: 600px;
   width: 420px;
-  border: solid 7px black;
+  /* border: solid 7px black; */
 }
 
 .one {
@@ -220,23 +220,84 @@
   border-left: none;
   border-right: none;
   height: 93px;
-  width: 15px;
+  width: 33px;
   transform: translate(217px, -1525px);
 }
 
 .twentyseven {
   border: solid 6px var(--border);
   border-left: none;
-  background-color: #D4343E;
+  background-color: #7A5A8B;
   height: 93px;
-  width: 93px;
-  transform: translate(317px, -1618px);
+  width: 80px;
+  transform: translate(330px, -1618px);
 }
 
 .twentyeight {
   border: solid 6px var(--border);
-  background-color: #7A5A8B;
+  background-color: #D4343E;
   height: 93px;
-  width: 93px;
-  transform: translate(228px, -1711px);
+  width: 80px;
+  transform: translate(250px, -1711px);
+}
+
+.twentynine {
+  border: solid 6px var(--border);
+  height: 100px;
+  width: 50px;
+  transform: translate(0, -1718px);
+}
+
+.thirty {
+  border: solid 6px var(--border);
+  background-color: #7A5A8B;
+  height: 175px;
+  width: 175px;
+  transform: translate(44px, -1819px);
+}
+
+.thirtyone {
+  border: solid 6px var(--border);
+  height: 87px;
+  width: 42px;
+  transform: translate(214px, -1990px);
+}
+
+.thirtytwo {
+  border: solid 6px var(--border);
+  height: 87px;
+  width: 42px;
+  transform: translate(251px, -2077px);
+}
+
+.thirtythree {
+  border: solid 6px var(--border);
+  background-color: #1A0605;
+  height: 87px;
+  width: 42px;
+  transform: translate(288px, -2164px);
+}
+
+.thirtyfour {
+  border: solid 6px var(--border);
+  background-color: #FFA799;
+  height: 87px;
+  width: 42px;
+  transform: translate(328px, -2251px);
+}
+
+.thirtyfive {
+  border: solid 6px var(--border);
+  background-color: #FFA799;
+  height: 43px;
+  width: 43px;
+  transform: translate(367px, -2335px);
+}
+
+.thirtysix {
+  border: solid 6px var(--border);
+  background-color: #1A0605;
+  height: 43px;
+  width: 43px;
+  transform: translate(367px, -2337px);
 }
