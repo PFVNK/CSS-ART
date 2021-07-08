@@ -14,12 +14,14 @@
   width: 100vw;
   display: grid;
   place-items: center;
+  background-color: #F0F0F0;
 }
 
 .frame {
   height: 600px;
-  width: 420px;
+  width: 410px;
   /* border: solid 7px black; */
+  background-color: white;
 }
 
 .one {
@@ -254,6 +256,8 @@
   height: 175px;
   width: 175px;
   transform: translate(44px, -1819px);
+  position: relative;
+  z-index: 10;
 }
 
 .thirtyone {
@@ -300,4 +304,63 @@
   height: 43px;
   width: 43px;
   transform: translate(367px, -2337px);
+}
+
+.thirtyseven {
+  border: solid 6px var(--border);
+  border-top: none;
+  width: 50px;
+  height: 150px;
+  transform: translate(0, -2339px);
+}
+
+.thirtyeight {
+  border: solid 6px var(--border);
+  background-color: #1A0605;
+  border-top: none;
+  border-left: none;
+  height: 84px;
+  width: 84px;
+  transform: translate(210px, -2487px);
+  position: relative;
+  z-index: 4;
+}
+
+.thirtynine {
+  border: solid 6px var(--border);
+  border-top: none;
+  border-left: none;
+  height: 84px;
+  width: 84px;
+  transform: translate(287px, -2571px);
+}
+
+.forty {
+  border: solid 6px var(--border);
+  height: 71px;
+  width: 90px;
+  transform: translate(44px, -2578px);
+}
+
+.fortyone {
+  border: solid 6px var(--border);
+  border-left: none;
+  height: 71px;
+  width: 120px;
+  transform: translate(134px, -2649px);
+}
+
+.fortytwo {
+  border: solid 6px var(--border);
+  background-color: #FFA799;
+  height: 69px;
+  width: 123px;
+  transform: translate(248px, -2718px);
+}
+
+.fortythree {
+  border: solid 6px var(--border);
+  height: 155px;
+  width: 43px;
+  transform: translate(367px, -2872px);
 }
